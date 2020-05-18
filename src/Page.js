@@ -110,9 +110,9 @@ function ProfilePage() {
             <h5
               className="description"
               style={{
-                lineHeight: "2rem",
+                lineHeight: "1.8rem",
                 color: `#444`,
-                letterSpacing: "1.4px",
+                letterSpacing: "0.14rem",
                 fontWeight: "lighter",
               }}
             >
@@ -127,10 +127,10 @@ function ProfilePage() {
               are the adrenaline for ME. <br />
               <br />
               <i>
-                &nbsp;<span style={{ fontSize: "30px" }}>"</span>&nbsp;
+                &nbsp;<span style={{ fontSize: "2.8rem" }}>"</span>&nbsp;
                 <mark>Evolution</mark> is the key to survival and thus always
                 keep <mark>Learning</mark> and <mark>Evolving</mark>.
-                <span style={{ fontSize: "30px" }}>"</span>
+                <span style={{ fontSize: "2.8rem" }}>"</span>
               </i>
               <br />
               <br />
@@ -148,8 +148,8 @@ function ProfilePage() {
                       lg="4"
                       style={{
                         boxShadow: "rgba(0, 0, 0, 0.5) 0px 5px 5px -6px",
-                        marginBottom: "30px",
-                        borderRadius: "20px",
+                        marginBottom: "2.8rem",
+                        borderRadius: "1.8rem",
                       }}
                     >
                       <div className="team-player">
@@ -183,8 +183,8 @@ function ProfilePage() {
                       lg="4"
                       style={{
                         boxShadow: "rgba(0, 0, 0, 0.5) 0px 5px 5px -6px",
-                        marginBottom: "30px",
-                        borderRadius: "20px",
+                        marginBottom: "2.8rem",
+                        borderRadius: "1.8rem",
                       }}
                     >
                       <div className="team-player">
@@ -199,10 +199,10 @@ function ProfilePage() {
                         <p className="category text-info">
                           <i>What We learn and Implement</i>
                         </p>
-                        <p style={{ padding: "10px", color: "#444" }}>
+                        <p style={{ padding: "1rem", color: "#444" }}>
                           <span
                             style={{
-                              marginBottom: "15px",
+                              marginBottom: "1.4rem",
                               display: "inline-block",
                             }}
                           >
@@ -211,7 +211,7 @@ function ProfilePage() {
                           <br />
                           <span
                             style={{
-                              marginBottom: "15px",
+                              marginBottom: "1.4rem",
                               display: "inline-block",
                             }}
                           >
@@ -220,7 +220,7 @@ function ProfilePage() {
                           <br />
                           <span
                             style={{
-                              marginBottom: "15px",
+                              marginBottom: "1.4rem",
                               display: "inline-block",
                             }}
                           >
@@ -230,7 +230,7 @@ function ProfilePage() {
                           <br />
                           <span
                             style={{
-                              marginBottom: "15px",
+                              marginBottom: "1.4rem",
                               display: "inline-block",
                             }}
                           >
@@ -245,9 +245,9 @@ function ProfilePage() {
                       lg="4"
                       style={{
                         boxShadow: "rgba(0, 0, 0, 0.5) 0px 5px 5px -6px",
-                        marginBottom: "30px",
+                        marginBottom: "2.8rem",
                         background: "white",
-                        borderRadius: "20px",
+                        borderRadius: "2.8rem",
                       }}
                     >
                       <div className="team-player">
@@ -265,7 +265,7 @@ function ProfilePage() {
                         <p style={{ color: `#444 !important` }}>
                           <span
                             style={{
-                              marginBottom: "15px",
+                              marginBottom: "1.4rem",
                               display: "inline-block",
                             }}
                           >
@@ -283,7 +283,7 @@ function ProfilePage() {
                           </span>
                           <span
                             style={{
-                              marginBottom: "15px",
+                              marginBottom: "1.4rem",
                               display: "inline-block",
                             }}
                           >
@@ -310,9 +310,9 @@ function ProfilePage() {
                     <Col
                       style={{
                         background: "whitesmoke",
-                        borderRadius: "20px",
+                        borderRadius: "1.9rem",
                         padding: "0rem 3rem 5rem 3rem",
-                        marginTop: "10px",
+                        marginTop: "1rem",
                         boxShadow:
                           "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)",
                       }}
@@ -525,7 +525,7 @@ function ProfilePage() {
                         <HoverCard
                           title="Brij Dental Clinic"
                           img={require("./assets/img/brij.webp")}
-                          description="A Front End Web Design"
+                          description="Front End Web Design"
                           link="https://brijdentalclinic.netlify.app/"
                         />
                       </Col>
@@ -534,12 +534,12 @@ function ProfilePage() {
                           title="IMUN Website"
                           img={require("./assets/img/img8.webp")}
                           link="https://imun.netlify.app/"
-                          description="A Website for an internship task in IMUN (an UN Organization) "
+                          description="Website for an internship task in IMUN"
                         />
                         <HoverCard
                           title="Pocket Education"
                           img={require("./assets/img/pocket.webp")}
-                          description="A Basic Data Entry and Updation Portal"
+                          description="Basic Record Management Portal"
                           link="http://pocketeducation.000webhostapp.com/"
                         />
                       </Col>
@@ -560,13 +560,13 @@ function ProfilePage() {
                         <HoverCard
                           title="Hi-Tube"
                           img={require("./assets/img/youtubeclone.webp")}
-                          description="A Reactjs Based Youtube Clone in which you can create chanel and perform CRUD Operations"
+                          description="Reactjs Based Youtube Clone one can perform CRUD on Channels"
                           link="https://myyoutubeclone.herokuapp.com/"
                         />
                         <HoverCard
                           title="Youtube Fetcher"
                           img={require("./assets/img/youtubefetcher.webp")}
-                          description="A Reactjs Based App to access videos and Channels from Youtube API using SearchBar"
+                          description="Reactjs Based App to access Videos and Channels from Youtube API"
                           link="https://youtubfetcher.herokuapp.com/"
                         />
                       </Col>
@@ -574,13 +574,13 @@ function ProfilePage() {
                         <HoverCard
                           title="Express Places"
                           img={require("./assets/img/expressplaces.webp")}
-                          description="An Expressjs based Portal where one can create Info page with styling of different places, perform CRUD and add comments."
+                          description="Expressjs based Portal for creating Styled Page of places, perform CRUD & add comments."
                           link="https://expressplaces.herokuapp.com/"
                         />
                         <HoverCard
                           title="Express ChatCord"
                           img={require("./assets/img/chatcord.webp")}
-                          description="An Expressjs Based App to access for RealTime Chatting using Socket.io"
+                          description="Expressjs Based App to access for RealTime Chatting using Socket.io"
                           link="https://expresschatapp.herokuapp.com/"
                         />
                       </Col>
@@ -594,13 +594,13 @@ function ProfilePage() {
                         <HoverCard
                           title="Event Booking App"
                           img={require("./assets/img/eventbooking.webp")}
-                          description="This is an event booking App built using MERN Stack and GraphQL with JWT Authentication"
+                          description="Event Booking App built using MERN Stack and GraphQL"
                           link="https://myeventbookingapp.netlify.app/"
                         />
                         <HoverCard
                           title="Shopping List"
                           img={require("./assets/img/shoppinglist.webp")}
-                          description="A Todo List APP built using MERN Stack and Redux with JWT Authentications"
+                          description="Todo List APP built using MERN Stack and Redux"
                           link="http://shoppingitems.herokuapp.com/"
                         />
                       </Col>
@@ -620,7 +620,7 @@ function ProfilePage() {
             <div
               style={{
                 width: "100%",
-                padding: "40px",
+                padding: "3.8rem",
                 textAlign: "center",
                 background: `url(${imge}), linear-gradient(rgba(255,255,255,0.3) 0%, rgba(0,0,0,0.3) 100%)`,
                 boxSizing: "border-box",

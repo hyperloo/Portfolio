@@ -26,8 +26,8 @@ const HoverCard = ({ img, title, description, link }) => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "flex-end",
-          margin: "20px",
-          padding: "120px 15px 15px 15px",
+          margin: "1rem",
+          padding: "11rem 0.5rem 0.5rem 0.5rem",
           background:
             "linear-gradient(to bottom, rgba(0,47,75,0.6) 0%,rgba(220, 66, 37, 0.6) 100%)",
         }}
@@ -36,7 +36,7 @@ const HoverCard = ({ img, title, description, link }) => {
           style={{
             textAlign: "center",
             color: "white",
-            marginBottom: "0.2rem",
+            marginBottom: "0.1rem",
           }}
         >
           <u>{title}</u>
@@ -45,7 +45,8 @@ const HoverCard = ({ img, title, description, link }) => {
           style={{
             textAlign: "center",
             color: "whitesmoke",
-            marginBottom: "0.2rem",
+            marginBottom: "0.1rem",
+            lineHeight: "1rem",
           }}
         >
           {description}

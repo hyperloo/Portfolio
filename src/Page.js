@@ -265,7 +265,7 @@ function ProfilePage() {
                         <p style={{ color: `#444 !important` }}>
                           <span
                             style={{
-                              marginBottom: "1.4rem",
+                              marginBottom: "1.15rem",
                               display: "inline-block",
                             }}
                           >
@@ -283,7 +283,25 @@ function ProfilePage() {
                           </span>
                           <span
                             style={{
-                              marginBottom: "1.4rem",
+                              marginBottom: "1.15rem",
+                              display: "inline-block",
+                            }}
+                          >
+                            Intern at <br />
+                            <mark>University Student Internship Programme</mark>
+                            <a
+                              href="http://dtu.ac.in"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {" "}
+                              (USIP)
+                            </a>{" "}
+                            DTU .
+                          </span>
+                          <span
+                            style={{
+                              marginBottom: "1.15rem",
                               display: "inline-block",
                             }}
                           >

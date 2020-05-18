@@ -1,0 +1,35 @@
+.hoverCard:hover,
+.hoverCard:active {
+  > img {
+    animation: scaleup 1s ease-in 1;
+  }
+}
+
+@keyframes scaleup {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  0% {
+    transform: scale(1);
+  }
+}
+
+.team-player:hover,
+.team-player:active {
+  animation: scaleup2 0.8s ease-in 1;
+}
+
+@keyframes scaleup2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  0% {
+    transform: scale(1);
+  }
+}

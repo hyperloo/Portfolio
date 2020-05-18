@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap");
+
+// Plugins CSS
+@import "plugins/plugin-nouislider";
+@import "plugins/plugin-react-datetime";
+
+// Core CSS
+@import "now-ui-kit/misc";
+@import "now-ui-kit/typography";
+
+// components
+@import "now-ui-kit/dropdowns";
+@import "now-ui-kit/modals";
+@import "now-ui-kit/popovers";
+
+// example pages and sections
+@import "now-ui-kit/sections";
+
+@import "now-ui-kit/responsive";

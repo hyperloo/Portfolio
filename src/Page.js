@@ -653,6 +653,17 @@ function ProfilePage() {
                 <br />I will get back to you ASAP
               </h4>
               <p>" Willing To Meet You Soon "</p>
+              <Button color="primary">
+                {" "}
+                <a
+                  href="https://docs.google.com/document/d/1Ba_UoMJWWzMZnWT4wViCyPI_3nKp4gC7FGa9nHbsQC4/edit?usp=sharing"
+                  target="_blank"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  My Resume ->{" "}
+                </a>
+              </Button>
+              <br />
               <a
                 href="mailto:hack.himanshu1024@gmail.com"
                 target="_blank"

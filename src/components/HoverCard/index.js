@@ -64,7 +64,7 @@ const HoverCard = ({ img, title, description, link }) => {
               margin: "1px",
             }}
           >
-            Click ME!
+            Goto ->
           </a>
         </Button>
       </div>

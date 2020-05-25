@@ -60,6 +60,7 @@ function ProfilePage() {
                 <a
                   href="https://github.com/hyperloo/"
                   target="_blank"
+                  rel="noopener"
                   rel="noreferrer"
                   style={{ color: "white" }}
                 >
@@ -78,6 +79,7 @@ function ProfilePage() {
                 <a
                   href="https://www.linkedin.com/in/himanshu-singh-1b8009176/"
                   target="_blank"
+                  rel="noopener"
                   rel="noreferrer"
                   style={{ color: "white" }}
                 >
@@ -96,6 +98,7 @@ function ProfilePage() {
                 <a
                   href="mailto:hack.himanshu1024@gmail.com"
                   target="_blank"
+                  rel="noopener"
                   rel="noreferrer"
                   style={{ color: "white" }}
                 >
@@ -171,6 +174,7 @@ function ProfilePage() {
                           <a
                             href="http://dtu.ac.in"
                             target="_blank"
+                            rel="noopener"
                             rel="noreferrer"
                           >
                             Delhi Technological University
@@ -274,6 +278,7 @@ function ProfilePage() {
                             <a
                               href="https://dsc-dtu.github.io/"
                               target="_blank"
+                              rel="noopener"
                               rel="noreferrer"
                             >
                               {" "}
@@ -292,6 +297,7 @@ function ProfilePage() {
                             <a
                               href="http://dtu.ac.in"
                               target="_blank"
+                              rel="noopener"
                               rel="noreferrer"
                             >
                               {" "}
@@ -311,6 +317,7 @@ function ProfilePage() {
                             <a
                               href="https://www.mic.gov.in/samadhan/"
                               target="_blank"
+                              rel="noopener"
                               rel="noreferrer"
                             >
                               {" "}
@@ -610,6 +617,20 @@ function ProfilePage() {
                     <Row className="collections">
                       <Col md="6">
                         <HoverCard
+                          title="Task Management App"
+                          img={require("./assets/img/taskmanager.webp")}
+                          description="Task Management App with Active, Archival and Stats Tab"
+                          link="https://myhacktaskmanager.netlify.app/"
+                        />
+                        <HoverCard
+                          title="Blog Website"
+                          img={require("./assets/img/gatsbyblog.webp")}
+                          description="A Blog Website built using Gatsby"
+                          link="https://mygatsbyblogpost.netlify.app/"
+                        />
+                      </Col>
+                      <Col md="6">
+                        <HoverCard
                           title="Event Booking App"
                           img={require("./assets/img/eventbooking.webp")}
                           description="Event Booking App built using MERN Stack and GraphQL"
@@ -620,14 +641,6 @@ function ProfilePage() {
                           img={require("./assets/img/shoppinglist.webp")}
                           description="Todo List APP built using MERN Stack and Redux"
                           link="http://shoppingitems.herokuapp.com/"
-                        />
-                      </Col>
-                      <Col md="6">
-                        <HoverCard
-                          title="Blog Website"
-                          img={require("./assets/img/gatsbyblog.webp")}
-                          description="A Blog Website built using Gatsby"
-                          link="https://mygatsbyblogpost.netlify.app/"
                         />
                       </Col>
                     </Row>
@@ -658,6 +671,7 @@ function ProfilePage() {
                 <a
                   href="https://docs.google.com/document/d/1Ba_UoMJWWzMZnWT4wViCyPI_3nKp4gC7FGa9nHbsQC4/edit?usp=sharing"
                   target="_blank"
+                  rel="noopener"
                   style={{ color: "white", textDecoration: "none" }}
                 >
                   My Resume ->{" "}
@@ -667,6 +681,7 @@ function ProfilePage() {
               <a
                 href="mailto:hack.himanshu1024@gmail.com"
                 target="_blank"
+                rel="noopener"
                 style={{
                   color: "black",
                   fontSize: "2rem",

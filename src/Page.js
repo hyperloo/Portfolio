@@ -617,6 +617,20 @@ function ProfilePage() {
                     <Row className="collections">
                       <Col md="6">
                         <HoverCard
+                          title="URL Compressor App"
+                          img={require("./assets/img/compressor.webp")}
+                          description="URL Minifying App built using MERN Stack and Context"
+                          link="https://cmprsr.herokuapp.com/client"
+                        />
+                        <HoverCard
+                          title="Event Booking App"
+                          img={require("./assets/img/eventbooking.webp")}
+                          description="Event Booking App built using MERN Stack and GraphQL"
+                          link="https://myeventbookingapp.netlify.app/"
+                        />
+                      </Col>
+                      <Col md="6">
+                        <HoverCard
                           title="Task Management App"
                           img={require("./assets/img/taskmanager.webp")}
                           description="Task Management App with Active, Archival and Stats Tab"
@@ -628,20 +642,12 @@ function ProfilePage() {
                           description="A Blog Website built using Gatsby"
                           link="https://mygatsbyblogpost.netlify.app/"
                         />
-                      </Col>
-                      <Col md="6">
-                        <HoverCard
-                          title="Event Booking App"
-                          img={require("./assets/img/eventbooking.webp")}
-                          description="Event Booking App built using MERN Stack and GraphQL"
-                          link="https://myeventbookingapp.netlify.app/"
-                        />
-                        <HoverCard
+                        {/* <HoverCard
                           title="Shopping List"
                           img={require("./assets/img/shoppinglist.webp")}
                           description="Todo List APP built using MERN Stack and Redux"
                           link="http://shoppingitems.herokuapp.com/"
-                        />
+                        /> */}
                       </Col>
                     </Row>
                   </Col>

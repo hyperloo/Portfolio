@@ -617,10 +617,10 @@ function ProfilePage() {
                     <Row className="collections">
                       <Col md="6">
                         <HoverCard
-                          title="URL Compressor App"
+                          title="URL Minifier App"
                           img={require("./assets/img/compressor.webp")}
                           description="URL Minifying App built using MERN Stack and Context"
-                          link="https://cmprsr.herokuapp.com/client"
+                          link="https://mnfy.herokuapp.com/client"
                         />
                         <HoverCard
                           title="Event Booking App"

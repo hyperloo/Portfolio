@@ -583,19 +583,11 @@ function ProfilePage() {
                       />
                       <Col md="6">
                         <HoverCard
-                          title="Hi-Tube"
-                          img={require("./assets/img/youtubeclone.webp")}
-                          description="Reactjs Based Youtube Clone one can perform CRUD on Channels"
-                          link="https://myyoutubeclone.herokuapp.com/"
+                          title="Color Picker App"
+                          img={require("./assets/img/color.webp")}
+                          description="Color Picker and Pallette Generator React App"
+                          link="https://mycolorpicker.netlify.app/"
                         />
-                        <HoverCard
-                          title="Youtube Fetcher"
-                          img={require("./assets/img/youtubefetcher.webp")}
-                          description="Reactjs Based App to access Videos and Channels from Youtube API"
-                          link="https://youtubfetcher.herokuapp.com/"
-                        />
-                      </Col>
-                      <Col md="6">
                         <HoverCard
                           title="Express Places"
                           img={require("./assets/img/expressplaces.webp")}
@@ -609,6 +601,20 @@ function ProfilePage() {
                           link="https://expresschatapp.herokuapp.com/"
                         />
                       </Col>
+                        <Col md="6">
+                          <HoverCard
+                            title="Hi-Tube"
+                            img={require("./assets/img/youtubeclone.webp")}
+                            description="Reactjs Based Youtube Clone one can perform CRUD on Channels"
+                            link="https://myyoutubeclone.herokuapp.com/"
+                          />
+                          <HoverCard
+                            title="Youtube Fetcher"
+                            img={require("./assets/img/youtubefetcher.webp")}
+                            description="Reactjs Based App to access Videos and Channels from Youtube API"
+                            link="https://youtubfetcher.herokuapp.com/"
+                          />
+                        </Col>
                     </Row>
                   </Col>
                 </TabPane>
